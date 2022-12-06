@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: 16.13
       - run: npm install
-      - run: npx sass npx sass ./sass/style.scss ./build/css/style.css
+      - run: npx sass ./sass/style.scss ./build/css/style.css
       - run: ls -lha ./build/css/
